@@ -1,0 +1,164 @@
+.sidebar .logo img {
+    width: 240px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.part-1 {
+    width: 100%;
+    height: 5%;
+    background-color: var(--container-bg);
+    border-radius: 0 0 12px 0;
+}
+
+.part-2 {
+    width: 100%;
+    height: 8%;
+    background-color: var(--container-bg);
+}
+
+.logo {
+    display: relative;
+    margin-left: 10%;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    background-color: var(--page-bg-color);
+}
+
+.part-3 {
+    width: 100%;
+    height: 87%;
+    background-color: var(--container-bg);
+    border-radius: 0 12px 0 0;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    
+    justify-content: space-between;
+}
+
+.sidebar-content .sidebar-pages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.sidebar-content .sidebar-pages ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sidebar-content .sidebar-pages ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sidebar-content .sidebar-pages li a:active {
+    color: var(--link-active);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+.sidebar-content .sidebar-pages li a:hover {
+    color: var(--link-hover);
+}
+
+
+.sidebar-content .score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.sidebar-content .score h2 {
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.sidebar-content .score span {
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.sidebar-content .score img {
+    width: 20px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.sidebar-content .sidebar-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-content .sidebar-footer .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sidebar-content .sidebar-footer span {
+    color: var(--text-muted);
+    font-size: 1.5rem;
+}
+
+.sidebar-content .sidebar-footer p {
+    margin: 10px 0;
+}
+
+hr {
+    width: 100%;
+    border: 2px solid var(--border-color);
+}
+
+.sidebar-content .sidebar-footer p a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sidebar-content .sidebar-footer p a:hover {
+    color: var(--link-hover);
+}
+
+.sidebar-content .sidebar-footer p a:active {
+    color: var(--link-active);
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}

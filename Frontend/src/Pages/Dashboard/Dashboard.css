@@ -1,0 +1,133 @@
+.page-dashboard {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-dashboard .dashboard-content h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    line-height: 1.5;
+    margin-bottom: -12px;
+}
+
+.page-dashboard .dashboard-content .dashboard-announcements {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.page-dashboard .dashboard-content .announcement-card {
+    min-height: 100px;
+    min-width: 200px;
+    max-height: 180px;
+    max-width: 450px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.page-dashboard .dashboard-content .dashboard-events {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.page-dashboard .dashboard-content .event-card {
+    min-height: 150px;
+    min-width: 200px;
+    max-height: 400px;
+    max-width: 240px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 0 1px var(--box-shadow);
+}
+
+.event-card button {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.event-card button:hover {
+    transition: 0.2s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.dashboard-content .dash-clubs-container {
+    margin-left: 20px;
+}
+
+.dashboard-content .dash-clubs-container .all-clubs {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.dash-clubs-container .club-card img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dash-clubs-container h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.dash-clubs-container .club-card {
+    display: flex;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 500px;
+    flex-direction: column;
+    gap: 7px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.announcement-title, .event-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.club-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.event-title {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.announcement-description, .event-description, .club-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.announcement-date {
+    font-size: 1rem;
+    font-weight: 600;
+}

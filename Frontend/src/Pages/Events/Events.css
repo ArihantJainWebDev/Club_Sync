@@ -1,0 +1,142 @@
+.page-events {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-events h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.event-card .event-jpg img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.page-events .events-container h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 18px;
+    line-height: 1.5;
+}
+
+.page-events .live-events {
+    display: flex;
+    gap: 50px;
+    padding: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.page-events .live-events .event-card {
+    min-height: 150px;
+    min-width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    background-color: #543;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px var(--box-shadow);
+    min-height: 300px;
+    min-width: 200px;
+    max-height: 700px;
+    max-width: 550px;
+}
+
+.page-events .event-card button {
+    width: 100%;
+    margin: auto;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.page-events .event-card button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.upcoming-event-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.create-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 18px;
+    margin-inline: 20px;
+    margin-bottom: 30px;
+    background-color: var(--card-bg-color);
+    border-radius: 7px;
+}
+
+.create-event-input {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+}
+
+.create-event button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-event button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.event-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.event-card h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.event-card .event-des {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.event-card p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}

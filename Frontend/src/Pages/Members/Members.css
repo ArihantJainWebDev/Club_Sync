@@ -1,0 +1,92 @@
+.page-members {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-members h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.members-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 18px;
+    flex-wrap: wrap;
+}
+
+.member-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 80px;
+    width: 80vw;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.member-cards .member-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background-color: var(--card-bg-color);
+    border-radius: 5px;
+}
+
+.member-cards .member-info .member-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.member-cards .member-info .member-email {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.member-cards .member-info .member-role, .member-card .member-info .member-description {
+    font-size: 1rem;
+    color: var(--border-color);
+}
+
+.member-cards table tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.member-clubs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.member-clubs td {
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;    
+    white-space: nowrap;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.member-cards .member-actions button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: none;
+    cursor: pointer;
+}

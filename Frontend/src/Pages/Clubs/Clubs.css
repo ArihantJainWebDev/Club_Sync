@@ -1,0 +1,148 @@
+.page-clubs {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-clubs h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.page-clubs .clubs-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.page-clubs .clubs-container .all-clubs, .page-clubs .clubs-container .my-clubs {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.clubs-container h2,
+.clubs-container h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.clubs-container .club-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.all-clubs,
+.my-clubs {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.club-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.club-card button {
+    margin: auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    max-width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--text-muted);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.club-card button:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.create-club-btn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.create-club-btn:hover {
+    color: var(--text-muted);
+    transition: 0.2s ease-in-out;
+    background-color: var(--text-color);
+}
+
+.create-club {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.create-club button {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--text-muted);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.create-club button:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.club-list {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.club-card {
+    min-height: 200px;
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 400px;
+    display: flex;
+}
+
+.club-card p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}

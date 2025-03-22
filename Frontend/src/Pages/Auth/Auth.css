@@ -1,0 +1,29 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--container-bg);
+  }
+
+  .logout-btn {
+    color: var(--primary-color);
+    background-color: transparent;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .logout-btn:hover {
+    color: var(--text-color);
+  }
+  
+  .profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
